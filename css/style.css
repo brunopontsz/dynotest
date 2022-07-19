@@ -23589,3 +23589,6 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
   border-radius: 8px;
   overflow: hidden;
 }
+.logo_footer {
+  width: 40%;
+}
