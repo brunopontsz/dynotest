@@ -1475,6 +1475,15 @@
         });
     });
 
+/* =====
+   Anchor Animated
+   ===== */
+   $("#button").click(function() {
+    $('html, body').animate({
+      scrollTop: $("#anchor").offset().top
+    }, 2000);
+  });
+
 /* ======
    When document is ready, do
    ====== */
