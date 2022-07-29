@@ -15564,7 +15564,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   width: 100% !important;
 }
 .text-thm {
-  color: #F5C34B !important;
+  color: #F5C34B;
 }
 .text-thm1 {
   color: #1947E2 !important;
@@ -15693,7 +15693,7 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
   background-color: #7CB338 !important;
 }
 .bgc-thm2 {
-  background-color: #0A2357 !important;
+  background-color: #0A2357 ;
 }
 .bgc-thm3 {
   background-color: #CF3E3B;
@@ -17597,7 +17597,6 @@ span.ui-slider-handle.ui-corner-all.ui-state-default:focus-visible,
 }
 .bg-ptrn2 {
   background-attachment: scroll;
-  background-image: url("../images/pattern/2.png");
   background-position: center;
   background-repeat: no-repeat;
   -webkit-background-size: cover;
@@ -23036,7 +23035,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 .listing_item_car_grid_slider.owl-theme .owl-dots .owl-dot.active span,
 .listing_item_car_grid_slider.owl-theme .owl-dots .owl-dot:hover span{
-  background: #1A3760;
+  background: white;
 }
 .carlisting-popular-vehicles{
   position: relative;
@@ -23047,7 +23046,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
   transition: all 0.3s ease;
 }
 .carlisting-popular-vehicles .details .price{
-  color: #1A3760;
+  color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -23057,7 +23056,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 .carlisting-popular-vehicles .details .title,
 .carlisting-popular-vehicles .details .title a{
-  color: #1A3760;
+  color: white;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
