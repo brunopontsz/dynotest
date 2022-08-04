@@ -329,3 +329,7 @@ input {
 .navbar.active .nav-link {
     color: #555;
 }
+
+.form-control1:focus-within {
+    color: black;
+}
