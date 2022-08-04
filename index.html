@@ -279,16 +279,44 @@
         </div>
     </div>
     <div class="row justify-content-center">
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLg">Fale com a gente!</button>
-      <div class="modal fade" id="exampleModalLg" tabindex="-1" aria-labelledby="exampleModalLgLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalXl">Extra large modal</button>
+      <div class="modal fade" id="exampleModalXl" tabindex="-1" aria-labelledby="exampleModalXlLabel" aria-hidden="true">
+        <div class="modal-dialog modal-xl">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title h4" id="exampleModalLgLabel">Fale com a gente!</h5>
+              <h5 class="modal-title h4" id="exampleModalXlLabel">Extra large modal</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-              ...
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <h2>Diga seu veículo</h2>
+                    <div class="cta-form-box">
+                      <form class="cta-form">
+                          <div class="form-group1">
+                              <label class="cta-label">Nome</label>
+                              <input type="text" class="form-control1" name="contact-name" placeholder="Nome">
+                          </div>
+                          <div class="form-group1">
+                              <label class="cta-label">Veículo</label>
+                              <input type="email" class="form-control1" name="contact-email" placeholder="Telefone">
+                          </div>
+                          <div class="form-group1">
+                            <label class="cta-label">Motorização</label>
+                            <input type="number" class="form-control1" name="contact-email" placeholder="Telefone">
+                        </div>
+                          <div class="form-group1 mb--40">
+                              <label class="cta-label">Como podemos lhe ajudar ?</label>
+                              <textarea name="contact-message" id="message" class="form-control1 textarea" cols="30" rows="6"></textarea>
+                          </div>
+                          <div class="form-group1 text-end">
+                              <button type="submit" class="btn-send1" name="submit-btn">Fale com a gente</button>
+                          </div>
+                          <input type="hidden" class="form-control" name="contact-company" value="Null">
+                      </form>
+                  </div>
+                  </div>
             </div>
           </div>
         </div>
