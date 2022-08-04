@@ -34,48 +34,45 @@
   <header class="header-nav menu_style_home_one transparent home5_style main-menu">
     <!-- Ace Responsive Menu -->
   </header>
-  
-  <!-- Main Header Nav For Mobile -->
-  <div id="page" class="stylehome1 h0">
-    <div class="mobile-menu">
-      <div class="header stylehome1">
-        <div class="mobile_menu_bar">
-          <a class="menubar" href="#menu"><small>Menu</small><span></span></a>
-        </div>
-        <div class="mobile_menu_main_logo"><img class="nav_logo_img_mobile mr100" src="images/header-logo3.png" alt="images/header-logo2.png"></div>
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-1">
+    <div class="container">
+      <a href="#" class="navbar-brand">
+        <img class="dynologo" src="images/DynoTest-Logo.png" alt="">
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-    <!-- /.mobile-menu -->
-    <nav id="menu" class="stylehome1">
-      <ul>
-        <li><span>Home</span>
-        </li>
-        <li><span>Sobre nós</span>
-        </li>
-        <li><span>Serviços</span>
-        </li>
-        <li><span>Resultados</span>
-        </li>
-        <li><span>Contato</span>
-        </li>
-        <!-- Only for Mobile View -->
-        <li class="mm-add-listing">
-          <span class="border-none">
-            <span class="mmenu-contact-info">
-              <span class="phone-num"><i class="flaticon-map"></i> <a href="#">47 Bakery Street, London, UK</a></span>
-              <span class="phone-num"><i class="flaticon-phone-call"></i> <a href="#">1-800-458-56987</a></span>
-              <span class="phone-num"><i class="flaticon-clock"></i> <a href="#">Mon - Fri 8:00 - 18:00</a></span>
-            </span>
-            <span class="social-links">
-              <a href="#"><span class="fab fa-facebook-f"></span></a>
-              <a href="#"><span class="fab fa-instagram"></span></a>
-              <a href="#"><span class="fab fa-whatsapp"></span></a>
-            </span>
-          </span>
-        </li>
-      </ul>
-    </nav>
-  </div>
+  </nav>
   
   <!-- Home Design -->
   <section class="home-one home5_style bg-home5 p0 mt70-992" id="home">
@@ -317,6 +314,9 @@
                       </form>
                   </div>
                   </div>
+                  <div class="col-lg-5">
+                    <img src="images/test.jpg" alt="">
+                  </div>
             </div>
           </div>
         </div>
@@ -544,5 +544,16 @@
 <!-- Custom script for all pages --> 
 <script src="js/script.js"></script>
 <script src="js/dyno.js"></script>
+<script type="text/javascript">
+$(function () {
+    $(window).on('scroll', function () {
+        if ( $(window).scrollTop() > 10 ) {
+            $('.navbar').addClass('active');
+        } else {
+            $('.navbar').removeClass('active');
+        }
+    });
+});
+</script>
 </body>
 </html>
