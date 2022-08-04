@@ -1,5 +1,5 @@
 
-$('.menu a').on('click', function(e) {
+$('.navbar a').on('click', function(e) {
     if (this.hash !== '') {
         e.preventDefault();
 
@@ -13,3 +13,10 @@ $('.menu a').on('click', function(e) {
         );
     }
 });
+
+const myModal = document.getElementById('myModal')
+const myInput = document.getElementById('myInput')
+
+myModal.addEventListener('shown.bs.modal', () => {
+  myInput.focus()
+})

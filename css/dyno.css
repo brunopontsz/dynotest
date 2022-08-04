@@ -3,6 +3,7 @@
 :root {
     --font-primary: 'DM Sans', sans-serif;
     --font-secondary: 'Poppins', sans-serif;
+    --swiper-theme-color: #851010;
 }
 
 html {
@@ -36,6 +37,7 @@ body {
     text-align: center;
     background-color: #ffff;
     border-radius: 10px;
+    box-shadow: 2px 2px 2px grey;;
     padding: 35px;
 }
 
@@ -104,23 +106,39 @@ body {
 
 .logoheader {
     max-width: 35%;
-    margin-top: 200px;
+    padding: 350px 0 0;
 }
 
 .contact-form-box {
     margin-left: 65px;
     margin-top: 50px;
+    background-color: #252525;
+    padding: 55px;
+    border-radius: 20px;
+}
+
+.cta-form-box {
     background-color: white;
     padding: 55px;
     border-radius: 20px;
+}
+
+textarea.form-control{
+    border: 1px solid #3e3e3e;
+}
+
+.form-control {
+    background-color: #252525;
+    color: white;
+    border: 1px solid #3e3e3e;
 }
 
 .btn-send {
     background-color: #851010;
     color: white;
     border: 1px solid #851010;
-    border-radius: 20px;
-    padding: 10px 20px;
+    border-radius: 15px;
+    padding: 10px 170px 5px 160px;
     overflow: hidden;
 }
 
@@ -136,5 +154,84 @@ body {
 
 label {
     margin-bottom: 15px;
+    color: white;
     display: inline-block;
+}
+
+.home_content_home5_style .wrapper {
+    padding: 50px 0 210px;
+    position: relative;
+}
+
+.service-section {
+    background-color: #c2c2c2;
+}
+
+.our-testimonial {
+    background-color: #c2c2c2;
+}
+
+.form-control:focus {
+    color: white;
+    background-color: #252525;
+}
+
+::placeholder {
+    color: white;
+}
+
+input {
+    color: white;
+}
+
+.cta-label {
+    color: #252525;
+}
+
+.form-control1 {
+    background-color: #c2c2c2;
+    color: white;
+    border: 1px solid #EAEAEA;
+    height: 50px;
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height:1.5;
+    background-color: #fff;
+    background-clip : padding-box;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.form-control1:focus {
+    color: black;
+}
+
+.form-control1:active, .form-control1:focus {
+    box-shadow: none;
+    outline: none;
+    color: black;
+}
+
+.textarea.form-control1 {
+    border: 1px solid #EAEAEA;
+    border-radius: 8px;
+    height: auto;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.textarea.form-control1 {
+    min-height: calc(1.5em + 0.75rem + 2px);
+}
+
+.cta-image {
+    border-radius: 10px;
+}
+
+.cta-btn {
+    width: 420px;
 }

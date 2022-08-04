@@ -66,7 +66,6 @@
   width: 50px;
 }
 .header a.menubar span{
-  background: #1A3760;
   display: block;
   height: 2px;
   margin: 8px 5px;
@@ -806,7 +805,7 @@ li.mm-add-listing.mm-listitem:after{
 }
 /*== Mobile Menu Css ==*/
 .stylehome1 .mm-navbar{
-  color: #1A3760;
+  color: #851010;
   height: 75px;
   line-height: 4;
 }
@@ -844,7 +843,7 @@ li.mm-add-listing.mm-listitem:after{
 .stylehome1.home3 a.mm-listitem__text:hover,
 .stylehome1.home3 a.mm-btn.mm-btn_next.mm-listitem__btn.mm-listitem__text:hover{
   background-color: #e5e5e5;
-  color: #1A3760;
+  color: #851010;
 }
 .stylehome1.home6 .mm-navbar{
   background-color: #ffffff;

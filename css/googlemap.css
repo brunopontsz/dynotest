@@ -258,7 +258,6 @@
 }
 .map-listing-item h3,
 .map-listing-item h3 a {
-  color: #1A3760;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
@@ -290,7 +289,6 @@
   justify-content: space-between;*/
 }
 .map-listing-item .info li {
-  color: #1A3760;
   font-size: 13px;
   font-style: normal;
   font-weight: 600;
