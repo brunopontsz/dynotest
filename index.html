@@ -34,7 +34,7 @@
   <header class="header-nav menu_style_home_one transparent home5_style main-menu">
     <!-- Ace Responsive Menu -->
   </header>
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-1">
+  <nav class="navbar fixed-top navbar-expand-lg p-md-2">
     <div class="container">
       <a href="#" class="navbar-brand">
         <img class="dynologo" src="images/DynoTest-Logo.png" alt="">
@@ -52,22 +52,19 @@
       </button>
 
       <div class="collapse navbar-collapse" id="navbarNav">
-        <div class="mx-auto"></div>
+        <div class="ms-auto"></div>
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Home</a>
+            <a class="nav-link" href="#aboutus">Sobre</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">About</a>
+            <a class="nav-link" href="#results">Resultados</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Blog</a>
+            <a class="nav-link" href="#services">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link text-white" href="#">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link text-white" href="#">Contact</a>
+            <a class="nav-link" href="#contact">Contato</a>
           </li>
         </ul>
       </div>
@@ -293,22 +290,24 @@
                       <form class="cta-form">
                           <div class="form-group1">
                               <label class="cta-label">Nome</label>
-                              <input type="text" class="form-control1" name="contact-name" placeholder="Nome">
+                              <input type="text" id="contact-name" value="" required="" class="form-control1" name="contact-name" placeholder="Nome">
                           </div>
                           <div class="form-group1">
                               <label class="cta-label">Veículo</label>
-                              <input type="email" class="form-control1" name="contact-email" placeholder="Telefone">
+                              <input type="text" id="contact-vehicle" class="form-control1" name="contact-vehicle" placeholder="Telefone">
                           </div>
                           <div class="form-group1">
                             <label class="cta-label">Motorização</label>
-                            <input type="number" class="form-control1" name="contact-email" placeholder="Telefone">
+                            <input type="number" class="form-control1" id="contact-motor" name="contact-motor" placeholder="Telefone">
                         </div>
-                          <div class="form-group1 mb--40">
-                              <label class="cta-label">Como podemos lhe ajudar ?</label>
-                              <textarea name="contact-message" id="message" class="form-control1 textarea" cols="30" rows="6"></textarea>
-                          </div>
-                          <div class="form-group1 text-end">
-                              <button type="submit" class="btn-send1" name="submit-btn">Fale com a gente</button>
+                          <div class="form-group1">
+                              <input
+                               type="submit"
+                               name="submit"
+                               onclick="gotowhatsapp()"
+                               class="btnSubmit btn-block"
+                               value="Submit">
+                               
                           </div>
                           <input type="hidden" class="form-control" name="contact-company" value="Null">
                       </form>
@@ -457,25 +456,8 @@
   <!-- Our Footer -->
   <section class="footer_one pt50 pb25">
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 col-xl-7">
-          <div class="footer_about_widget text-start">
+      <div class="row justify-content-center">
             <div class="logo_footer mb40 mb0-sm"><img src="images/testlogo.png" alt="header-logo.png"></div>
-          </div>
-        </div>
-        <div class="col-md-8 col-xl-5">
-          <div class="footer_menu_widget text-start text-md-end mt15">
-            <nav class="menu">
-            <ul>
-              <li class="list-inline-item"><a href="#home">Home</a></li>
-              <li class="list-inline-item"><a href="#aboutus">Sobre nós</a></li>
-              <li class="list-inline-item"><a href="#services">Serviços</a></li>
-              <li class="list-inline-item"><a href="#results">Resultados</a></li>
-              <li class="list-inline-item"><a href="#contact">Contatos</a></li>
-            </ul>
-          </nav>
-          </div>
-        </div>
       </div>
     </div>
     <hr>
@@ -544,6 +526,7 @@
 <!-- Custom script for all pages --> 
 <script src="js/script.js"></script>
 <script src="js/dyno.js"></script>
+<script src="js/whatsapp.js"></script>
 <script type="text/javascript">
 $(function () {
     $(window).on('scroll', function () {

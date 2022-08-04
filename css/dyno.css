@@ -308,7 +308,7 @@ input {
 }
 
 .navbar-brand img {
-    max-width: 200%;
+    max-width: 190%;
     visibility: hidden;
 }
 
@@ -324,4 +324,8 @@ input {
     .navbar.active .navbar-brand img{
         display: none;
     }
+}
+
+.navbar.active .nav-link {
+    color: #555;
 }
