@@ -3,7 +3,7 @@
 :root {
     --font-primary: 'DM Sans', sans-serif;
     --font-secondary: 'Poppins', sans-serif;
-    --swiper-theme-color: #851010;
+    --swiper-theme-color: #af1313; 
 }
 
 html {
@@ -11,7 +11,7 @@ html {
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: var(--font-primary);
-    color: #851010;
+    color: #af1313;
 }
 
 body {
@@ -37,7 +37,7 @@ body {
     text-align: center;
     background-color: #ffff;
     border-radius: 10px;
-    box-shadow: 2px 2px 2px grey;;
+    box-shadow: 2px 2px 10px #d2d2d2;;
     padding: 35px;
 }
 
@@ -55,12 +55,12 @@ body {
 }
 
 .footer_mailchimp_form button {
-    background-color: #851010;
+    background-color: #af1313;
     color: white;
 }
 
 .scrollToHome {
-    background-color: #851010;
+    background-color: #af1313;
 }
 
 .carlisting-popular-vehicles .listing_footer ul li {
@@ -68,11 +68,11 @@ body {
 }
 
 .flaticon-road-perspective {
-    color: #851010;
+    color: #af1313;
 }
 
 .flaticon-gas-station {
-    color: #851010;
+    color: #af1313;
 }
 
 .half-bg-img-divider {
@@ -83,7 +83,7 @@ body {
 }
 
 .bgc-thm2 {
-    background-color: #851010;
+    background-color: #af1313;
 }
 
 .btn-thm {
@@ -97,7 +97,7 @@ body {
 }
 
 .text-thm {
-    color: #851010;
+    color: #af1313;
 }
 
 .article {
@@ -110,8 +110,7 @@ body {
 }
 
 .contact-form-box {
-    margin-left: 65px;
-    margin-top: 50px;
+    margin-left: 15px;
     background-color: #252525;
     padding: 55px;
     border-radius: 20px;
@@ -119,7 +118,7 @@ body {
 
 .cta-form-box {
     background-color: white;
-    padding: 55px;
+    padding: 15px 0 40px 0;
     border-radius: 20px;
 }
 
@@ -134,9 +133,9 @@ textarea.form-control{
 }
 
 .btn-send {
-    background-color: #851010;
+    background-color: #af1313;
     color: white;
-    border: 1px solid #851010;
+    border: 1px solid #af1313;
     border-radius: 15px;
     padding: 10px 170px 5px 160px;
     overflow: hidden;
@@ -153,7 +152,7 @@ textarea.form-control{
 }
 
 label {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     color: white;
     display: inline-block;
 }
@@ -164,11 +163,11 @@ label {
 }
 
 .service-section {
-    background-color: #c2c2c2;
+    background-color: #e3e3e3;
 }
 
 .our-testimonial {
-    background-color: #c2c2c2;
+    background-color: #e3e3e3;
 }
 
 .form-control:focus {
@@ -189,7 +188,7 @@ input {
 }
 
 .form-control1 {
-    background-color: #c2c2c2;
+    background-color: #e3e3e3;
     color: white;
     border: 1px solid #EAEAEA;
     height: 50px;
@@ -210,7 +209,7 @@ input {
     color: black;
 }
 
-.form-control1:active, .form-control1:focus {
+.form-control1:active, .form-control1:focus, .form-control1:visited, .form-control1:visited {
     box-shadow: none;
     outline: none;
     color: black;
@@ -236,13 +235,6 @@ input {
     width: 420px;
 }
 
-/*
-*
-* ==========================================
-* CUSTOM UTIL CLASSES
-* ==========================================
-*
-*/
 .navbar {
     transition: all 0.4s;
 }
@@ -343,5 +335,26 @@ input {
 }
 
 .form-control1:visited {
-    color:black
+    color: black !important;
+}
+
+.form-control1:focus-visible {
+    color: black !important;
+}
+
+.btn-whatsapp {
+    height: 65px;
+    font-weight: 600;
+    line-height: 37px;
+    border-radius: 8px;
+    margin-top: 15px;
+    width: 400px;
+}
+
+.form-group1 {
+    margin-top: 20px;
+}
+
+.fade {
+    backdrop-filter: brightness(0,5);
 }
