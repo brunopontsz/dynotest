@@ -118,7 +118,7 @@ body {
 
 .cta-form-box {
     background-color: white;
-    padding: 15px 0 40px 0;
+    padding: 0 0 40px 0;
     border-radius: 20px;
 }
 
@@ -177,7 +177,7 @@ label {
 }
 
 ::placeholder {
-    color: white;
+    color: grey;
 }
 
 input {
@@ -190,7 +190,7 @@ input {
 
 .form-control1 {
     background-color: #e3e3e3;
-    color: white;
+    color: black;
     border: 1px solid #EAEAEA;
     height: 50px;
     display: block;
@@ -348,12 +348,19 @@ input {
 }
 
 .btn-whatsapp {
+    background-color: #48c740;
+    color: white;
     height: 65px;
     font-weight: 600;
     line-height: 37px;
     border-radius: 8px;
     margin-top: 15px;
-    width: 400px;
+    width: 100%;
+}
+
+.wpp-icon {
+    height: 20px;
+    padding-left: 10px;
 }
 
 .form-group1 {
@@ -367,25 +374,24 @@ input {
 .btn-modal {
     background-color:#af1313;
     border-color: #af1313;
-    width: 550px;
     border-radius: 8px;
-    height: 100px;
+    padding: 20px 35px;
+    width: auto;
 }
 
 .btn-modal:hover {
-    color:#252525;
-    background-color: #e3e3e3;
-    border-color: #e3e3e3;
+    background-color: #af1313;
+    border-color: #af1313;
 }
 
-.btn-modal:active {
-    color:#252525;
-    background-color: #e3e3e3;
-    border-color: #e3e3e3;
+.bootstrap-select a.dropdown-item {
+    color: #252525 !important;
 }
 
-.btn-modal:focus {
-    color:#252525;
-    background-color: #e3e3e3;
-    border-color: #e3e3e3;
+.bootstrap-select a.dropdown-item:hover {
+    color: #851010 !important;
+}
+
+.featured-cta-list {
+    padding: 50px 0 0 30px;
 }
