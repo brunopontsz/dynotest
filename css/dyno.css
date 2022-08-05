@@ -137,7 +137,8 @@ textarea.form-control{
     color: white;
     border: 1px solid #af1313;
     border-radius: 15px;
-    padding: 10px 170px 5px 160px;
+    width: 510px;
+    height: 35px;
     overflow: hidden;
 }
 
@@ -241,6 +242,7 @@ input {
 
 .navbar .nav-link {
     color: #fff;
+    
 }
 
 .navbar .nav-link:hover,
@@ -316,6 +318,9 @@ input {
     .navbar.active .navbar-brand img{
         display: none;
     }
+    .sub-title h2 {
+        padding: 50px 0 0 0;
+    }
 }
 
 .navbar.active .nav-link {
@@ -355,6 +360,32 @@ input {
     margin-top: 20px;
 }
 
-.fade {
-    backdrop-filter: brightness(0,5);
+#exampleModalXl {
+    backdrop-filter: brightness(0.3);
+}
+
+.btn-modal {
+    background-color:#af1313;
+    border-color: #af1313;
+    width: 550px;
+    border-radius: 8px;
+    height: 100px;
+}
+
+.btn-modal:hover {
+    color:#252525;
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.btn-modal:active {
+    color:#252525;
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
+}
+
+.btn-modal:focus {
+    color:#252525;
+    background-color: #e3e3e3;
+    border-color: #e3e3e3;
 }
