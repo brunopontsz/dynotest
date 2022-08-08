@@ -237,7 +237,6 @@
   transition: transform .4s ease;
   transition: transform .4s ease, -webkit-transform .4s ease
 }
-
 .mm-panel:not(.mm-hidden) {
   display: block
 }
