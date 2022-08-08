@@ -8155,7 +8155,7 @@ form.listing_page_v9{
   border-radius: 50%;
   content: '';
   box-sizing: content-box;
-  box-shadow: 0 0 0 2px #F5C34B;
+  box-shadow: 0 0 0 2px #FFFFFF;
   height: 100%;
   left: 0;
   opacity: 0;
@@ -8166,7 +8166,7 @@ form.listing_page_v9{
   transition: 300ms;
 }
 .footer_social_widget li:hover{
-  background-color: rgba(10, 35, 87, 0.7);
+  background-color: #AF1313;
   cursor: pointer;
 }
 .footer_social_widget li:hover:after{
