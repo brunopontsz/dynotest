@@ -46,6 +46,10 @@ body {
     background-color: #252525;
 }
 
+.logo_footer {
+    max-width: 10%;
+}
+
 .logoheader {
     max-width: 30%;
 }
@@ -53,7 +57,10 @@ body {
 .footer_one {
     background-color: #252525;
 }
-
+.casetitle {
+    border-bottom: 1px solid #3e3e3e;
+    padding-bottom: 35px;
+}
 .footer_mailchimp_form button {
     background-color: #af1313;
     color: white;
@@ -82,14 +89,38 @@ body {
     height: 750px;
 }
 
+.btn-modal:active {
+    background-color: #851010;
+    border: #851010;
+}
+
+.btn-modal:focus {
+    background-color: #851010;
+    border: #851010;
+}
+
 .bgc-thm2 {
     background-color: #af1313;
 }
 
 .btn-thm {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(42, 42, 42);
     border: 1px solid rgb(20, 20, 20);
     color: white;
+}
+
+.btn-thm:hover {
+    background-color: rgb(20,20,20);
+    border: 1px solid rgb(20, 20, 20);
+    color: #af1313;
+    }
+
+.testing {
+    margin-left: -25px;
+}
+
+.hp {
+    max-width: 65%;
 }
 
 .home_content_home5_style .wrapper a.btn {
@@ -177,7 +208,7 @@ label {
 }
 
 ::placeholder {
-    color: grey;
+    color: #5F6973;
 }
 
 input {
@@ -296,6 +327,9 @@ input {
     transition: all 0.4s;
 }
 
+.ctah2 {
+    font-size: 30px !important;
+}
 .cta-area {
     padding: 0px 0 !important;
     background: transparent;
@@ -303,7 +337,7 @@ input {
 
 .parallax-container {
     height: 350px;
-    background: transparent;
+    background: #0000009e;
 }
 
 .navbar.active {
@@ -403,5 +437,5 @@ input {
 }
 
 .featured-cta-list {
-    padding: 50px 0 0 30px;
+    padding: 30px;
 }

@@ -9,7 +9,7 @@ function gotowhatsapp() {
     + "Olá DynoTest, tudo bem?" + "%0A" +"Me chamo " + "*"+ name + "*" + " e gostaria de saber mais sobre os serviços que vocês oferecem para meu veículo."
     + "%0A" + "Veículo: "+ "*" + vehicle + "*" + "%0A" 
     + "Motorização: " + "*"+ motor + "*" +"%0A" 
-    + "Serviço: " + "*"+ service + "*"; 
+    + "Serviço: " + "*" + service + "*"; 
 
     window.open(url, '_blank').focus();
 }

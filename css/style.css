@@ -127,7 +127,6 @@ Tag: agriculture, bakery, ecommerce, farm, food, food shop, grocery market, natu
 /*== Typography ==*/
 html {
   font-size: 100%;
-  scroll-behavior: auto !important;
 }
 
 body {
