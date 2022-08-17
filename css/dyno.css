@@ -384,6 +384,10 @@ input {
         max-width: 65%;
     }
 
+    .bg-home5 {
+        background-image: url(../images/mobilew.jpg);
+    }
+
     .btn-modal {
         padding: 7.5px !important;
     }
