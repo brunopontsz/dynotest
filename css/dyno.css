@@ -372,6 +372,24 @@ input {
     }
 }
 
+@media (width:414px) {
+    .btn-send {
+        max-width: 268px;
+    }
+    .sub-title h2 {
+        margin: 0 0 0 0;
+    }
+
+    .logo_footer {
+        max-width: 65%;
+    }
+
+    .btn-modal {
+        padding: 7.5px !important;
+    }
+}
+
+
 @media (max-width:980px) {
     .navbar-brand img {
         display: none;
