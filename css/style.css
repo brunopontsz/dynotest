@@ -17714,41 +17714,7 @@ section.inner_page_section_spacing{
   width: 100%;
   z-index: 99999; }
 
-.scrollToHome:hover {
-  color: #ffffff; }
-.scrollToHome {
-  border-radius: 8px;
-  background-color: #F5C34B;
-  bottom: 15px;
-  color: #ffffff;
-  font-size: 18px;
-  height: 45px;
-  line-height: 40px;
-  padding: 3px 10px;
-  position: fixed;
-  right: 20px;
-  text-align: center;
-  width: 45px;
-  z-index: 99999;
-  -webkit-transition: all 0.3s ease-in-out;
-  -o-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-.scrollToHome.home3 {
-  background-color: #CF3E3B;
-}
-.scrollToHome.home4 {
-  background-color: rgba(13, 38, 59, 0.1);
-  color: #1A3760;
-}
-.scrollToHome.home8{
-  background-color: #F5F7FC;
-  color: #1A3760;
-}
-.scrollToHome.home10{
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #fff;
-}
+
 /*== BackGround Color White Overlay ==*/
 .bgc-overlay-white3:before {
   background-color: rgba(255, 255, 255, 0.3);

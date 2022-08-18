@@ -1374,23 +1374,6 @@
             return false;
         });
     }
-
-    /* ----- Scroll To top ----- */
-    function scrollToTop() {
-        $(window).scroll(function(){
-            if ($(this).scrollTop() > 600) {
-                $('.scrollToHome').fadeIn();
-            } else {
-                $('.scrollToHome').fadeOut();
-            }
-        });
-        
-        //Click event to scroll to top
-        $('.scrollToHome').on('click',function(){
-            $('html, body').animate({scrollTop : 0},800);
-            return false;
-        });
-    }
     
     /* ----- Mega Dropdown Content ----- */
     $(document).on('ready', function(){
