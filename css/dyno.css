@@ -373,6 +373,10 @@ input {
 }
 
 @media (width:414px) {
+    html {
+        scroll-behavior: unset;
+    }
+
     .btn-send {
         max-width: 268px;
     }
