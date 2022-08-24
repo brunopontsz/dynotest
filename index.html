@@ -62,25 +62,33 @@
     </nav>
 
     <!-- Home Design -->
-    <section class="home-one home5_style bg-home5 p0 mt70-992" id="home">
+    <section class="home-init" id="home">
+      <div class="home-test parallax-container" data-parallax="scroll" data-position="top" data-natural-width="3840" data-natural-height="1200" data-image-src="images/home.jpg">
       <div class="container">
-        <img class="logoheader" src="images/testlogo.png" alt="header-logo.svg">
+        <img src="images/testlogo.png" class="logoheader">
         <div class="row posr">
           <div class="col-lg-12">
             <div class="home_content_home5_style">
-              <div class="wrapper mb30 mb0-sm ">
+              <div class="wrapper mb30 mb0-sm">
                 <h2 class="title">Vehicle Available</h2>
                 <p class="para">Find the right price, dealer and advice.</p>
                 <div class="home5_button_content d-block d-sm-flex">
-                  <a class="btn btn-thm me-0 me-sm-1" href="page-car-single-v1.html">Nosso serviços</a>
-                  <p class="calltext ms-0 ms-sm-4 mt-3">FALE COM A GENTE AGORA <br><a class="text-thm phone_number" href="page-about.html">(85)98115.2600</a></p>
+                  <a href="#services" class="btn btn-thm me-0 me-sm-1">Nossos serviços</a>
+                  <p class="calltext ms-0 ms-sm-4 mt-3">
+                    FALE COM A GENTE AGORA
+                    <br>
+                    <a href="#cta" class="text-thm phone-number">
+                      (85)98115.2600
+                    </a>
+                  </p>
                 </div>
-
               </div>
             </div>
           </div>
         </div>
       </div>
+      </div>
+
     </section>
 
     <!-- Half Bg Img Divider  -->
@@ -124,9 +132,9 @@
                     <div class="listing_footer">
                       <ul>
                         <li class="list-inline-item case"><img class="hp"src="images/hp.svg"></li>
-                        <li class="testing list-inline-item">+30HP</li>
+                        <li class="testing list-inline-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="potência">+30HP</li>
                         <li class="list-inline-item case"><img class="hp"src="images/torque.svg"></li>
-                        <li class="testing list-inline-item">+15KGFM</li>
+                        <li class="testing list-inline-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="torque">+15KGFM</li>
                       </ul>
                     </div>
                   </div>
@@ -144,9 +152,9 @@
                     <div class="listing_footer">
                       <ul>
                         <li class="list-inline-item case"><img class="hp"src="images/hp.svg"></li>
-                        <li class="testing list-inline-item">+30HP</li>
+                        <li class="testing list-inline-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="potência">+30HP</li>
                         <li class="list-inline-item case"><img class="hp"src="images/torque.svg"></li>
-                        <li class="testing list-inline-item">+15KGFM</li>
+                        <li class="testing list-inline-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="torque">+15KGFM</li>
                       </ul>
                     </div>
                   </div>
@@ -164,9 +172,9 @@
                     <div class="listing_footer">
                       <ul>
                         <li class="list-inline-item case"><img class="hp"src="images/hp.svg"></li>
-                        <li class="testing list-inline-item">+30HP</li>
+                        <li class="testing list-inline-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="potência">+30HP</li>
                         <li class="list-inline-item case"><img class="hp"src="images/torque.svg"></li>
-                        <li class="testing list-inline-item">+15KGFM</li>
+                        <li class="testing list-inline-item" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Tooltip on top">+15KGFM</li>
                       </ul>
                     </div>
                   </div>
@@ -262,7 +270,7 @@
       </div>
     </section>
 
-    <section class="cta-area">
+    <section class="cta-area" id="cta">
       <div class="parallax-container" data-parallax="scroll" data-position="top" data-bleed="10" data-natural-width="1400" data-natural-height="940" data-image-src="images/race.jpg">
         <div class="container">
           <div class="row justify-content-center">
@@ -281,20 +289,20 @@
               <div class="modal-dialog modal-xl">
                 <div class="modal-content">
                   <div class="modal-body">
-                    <div class="container">
                       <div class="row">
                         <div class="col-lg-6">
                           <div class="cta-form-box">
-                            <form class="cta-form">
+                            <img src="images/logodireita.png" class="w-100 d-md-none" alt="">
+                            <div class="cta-form">
                               <div class="form-group1">
-                                <label class="cta-label">Nome</label>
+                                <label class="cta-label">Nome</label> <span>*</span>
                                 <input type="text" id="contact-name" value="" class="form-control1"
-                                  name="contact-name" placeholder="" required>
+                                  name="contact-name" placeholder="Nome" required>
                               </div>
                               <div class="row">
                                 <div class="col-lg-8">
                                   <div class="form-group1">
-                                    <label class="cta-label">Qual seu veículo</label>
+                                    <label class="cta-label">Qual seu veículo</label> <span>*</span>
                                     <input type="text" id="contact-vehicle" class="form-control1" name="contact-vehicle"
                                       placeholder="Ex: Hilux, Audi A3, Golf GTI, BMW X5..." required>
                                   </div>
@@ -308,7 +316,7 @@
                               </div>
                               <div class="form-group1 mb--40">
                                 <label class="cta-label">Como podemos lhe ajudar?</label>
-                                <select class="selectpicker w-100" multiple="multiple" id="contact-service" required="true" placeholder="Escolha um ou mais serviços">
+                                <select class="selectpicker w-100" multiple="multiple" id="contact-service" placeholder="Escolha um ou mais serviços" required>
                                   <option value="1">Aumentar potência e torque</option>
                                   <option value="2">Diminuir o consumo</option>
                                   <option value="3">Manutenção preventiva</option>
@@ -317,14 +325,14 @@
                                   <option value="6">Outros Serviços</option>
                                 </select>
                               </div>
-                                <button class="btn-whatsapp" onclick="gotowhatsapp()">
+                                <button class="btn-whatsapp" onclick="goToWhatsapp()">
                                   Falar com a Dynotest <img src="images/whatsappicon.png" class="wpp-icon pl-3" alt="">
                                 </button>
-                            </form>
+                            </div>
                           </div>
                         </div>
-                        <div class="col-lg-6">
-                          <img src="images/logodireita.png" class="w-100" alt="">
+                        <div class="col-lg-6 cta-list">
+                          <img src="images/logodireita.png" class="w-100 d-none d-md-block" alt="">
                           
                           <ul class="featured-cta-list" style="list-style-image: url('images/verificar.svg')">
                             <li>Aumento de potência e torque para seu veículo</li>
@@ -336,7 +344,6 @@
                           </ul>
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
               </div>
@@ -459,22 +466,22 @@
               <h2 class="mb0">Fale conosco</h2>
             </div>
             <div class="contact-form-box">
-              <form class="contact-form">
+              <div class="contact-form">
                 <div class="form-group">
                   <label>Nome</label>
-                  <input type="text" class="form-control" name="contact-name" placeholder="Nome">
+                  <input type="text" class="form-control" id="name-talk" name="contact-name" placeholder="Nome">
                 </div>
                 <div class="form-group">
                   <label>Veículo</label>
-                  <input type="text" class="form-control" name="contact-name" placeholder="Ex: Hilux, Audi A3, Golf GTI, BMW X5...">
+                  <input type="text" class="form-control" id="vehicle-talk" name="contact-vehicle" placeholder="Ex: Hilux, Audi A3, Golf GTI, BMW X5...">
                 </div>
                 <div class="form-group">
                   <label>Motorização</label>
-                  <input type="text" class="form-control" name="contact-name" placeholder="Ex: 1.4, 1.8, 600cc...">
+                  <input type="text" class="form-control" id="motor-talk" name="contact-motor" placeholder="Ex: 1.4, 1.8, 600cc...">
                 </div>
-                  <button type="button" class="btn-send" name="submit-btn" data-bs-toggle="modal" data-bs-target="#exampleModalXl">Fale com a gente</button>
+                <button class="btn-send" onclick="openModal()">Fale com a gente</button>
                 <input type="hidden" class="form-control" name="contact-company" value="Null">
-              </form>
+              </div>
             </div>
           </div>
         </div>

@@ -105,10 +105,14 @@ body {
     color: white;
 }
 
+.btn-thm:focus {
+    background-color: rgb(20, 20, 20);
+}
+
 .btn-thm:hover {
     background-color: rgb(20,20,20);
     border: 1px solid rgb(20, 20, 20);
-    color: #af1313;
+    color: white !important;
     }
 
 .testing {
@@ -133,7 +137,7 @@ body {
 
 .logoheader {
     max-width: 35%;
-    padding: 350px 0 0;
+    padding: 130px 0px 0 0;
 }
 
 .contact-form-box {
@@ -331,8 +335,17 @@ input {
     background: transparent;
 }
 
+.home-init {
+    padding: 0px 0 90px !important;
+}
+
+.home-test {
+    background: none !important;
+    height: 500px !important;
+}
+
 .parallax-container {
-    height: 350px;
+    height: 360px;
     background: #0000009e;
 }
 
@@ -370,7 +383,7 @@ input {
 
 @media (width:414px) {
     html {
-        scroll-behavior: unset;
+        scroll-behavior: ;
     }
 
     .btn-send {

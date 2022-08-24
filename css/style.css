@@ -365,8 +365,8 @@ address {
 .z9{
   z-index: 9;
 }
-.wpp-icon{
-  max-width: 6%;
+.cta-list {
+  margin: 32px 0 0 0 !important;
 }
 .z99{
   z-index: 99;

@@ -15,3 +15,7 @@ var nav = document.querySelector('nav');
           nav.classList.remove('bg-dark', 'shadow');
         }
       });
+
+      $(document).ready(function(){
+        $('[data-bs-toggle="tooltip"]').tooltip();   
+    });
