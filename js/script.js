@@ -12,29 +12,6 @@
         });
     }
 
-    /* ----- Navbar Scroll To Fixed ----- */
-    function navbarScrollfixed() {
-        $('.navbar-scrolltofixed').scrollToFixed();
-        var summaries = $('.summary');
-        summaries.each(function(i) {
-            var summary = $(summaries[i]);
-            var next = summaries[i + 1];
-            summary.scrollToFixed({
-                marginTop: $('.navbar-scrolltofixed').outerHeight(true) + 10,
-                limit: function() {
-                    var limit = 0;
-                    if (next) {
-                        limit = $(next).offset().top - $(this).outerHeight(true) - 10;
-                    } else {
-                        limit = $('.footer').offset().top - $(this).outerHeight(true) - 10;
-                    }
-                    return limit;
-                },
-                zIndex: 999
-            });
-        });
-    }
-
     /** Main Menu Custom Script Start **/
     $(document).on('ready', function() {
         $("#respMenu").aceResponsiveMenu({
@@ -65,34 +42,6 @@
         $(this).parent().fadeOut();
     });
 
-    /* ----- This code for menu ----- */
-    $(window).on('scroll', function() {
-        if ($('.scroll-to-top').length) {
-            var strickyScrollPos = 100;
-            if ($(window).scrollTop() > strickyScrollPos) {
-                $('.scroll-to-top').fadeIn(500);
-            } else if ($(this).scrollTop() <= strickyScrollPos) {
-                $('.scroll-to-top').fadeOut(500);
-            }
-        };
-        if ($('.stricky').length) {
-            var headerScrollPos = $('.header-navigation').next().offset().top;
-            var stricky = $('.stricky');
-            if ($(window).scrollTop() > headerScrollPos) {
-                stricky.removeClass('slideIn animated');
-                stricky.addClass('stricky-fixed slideInDown animated');
-            } else if ($(this).scrollTop() <= headerScrollPos) {
-                stricky.removeClass('stricky-fixed slideInDown animated');
-                stricky.addClass('slideIn animated');
-            }
-        };
-    });
-    
-    $(".mouse_scroll").on('click', function() {
-        $('html, body').animate({
-            scrollTop: $("#feature-property, #property-city").offset().top
-        }, 1000);
-    });
     /** Main Menu Custom Script End **/
 
 
@@ -1457,15 +1406,6 @@
             $(".wrapper").removeClass("body_overlay2");
         });
     });
-
-/* =====
-   Anchor Animated
-   ===== */
-   $("#button").click(function() {
-    $('html, body').animate({
-      scrollTop: $("#anchor").offset().top
-    }, 2000);
-  });
 
 /* ======
    When document is ready, do
