@@ -137,7 +137,7 @@ body {
 
 .logoheader {
     max-width: 35%;
-    padding: 130px 0px 0 0;
+    padding: 78px 0px 0 0;
 }
 
 .contact-form-box {
@@ -299,7 +299,7 @@ input {
 
 .navbar.active .nav-link:hover,
 .navbar.active .nav-link:focus {
-    color: #555;
+    color: #af1313;
     text-decoration: none;
 }
 
@@ -339,14 +339,14 @@ input {
     padding: 0px 0 90px !important;
 }
 
-.home-test {
-    background: none !important;
-    height: 500px !important;
-}
-
 .parallax-container {
     height: 360px;
     background: #0000009e;
+}
+
+.home-test {
+    height: 600px;
+    background: none;
 }
 
 .navbar.active {
@@ -357,6 +357,15 @@ input {
 .navbar-brand img {
     max-width: 380%;
     visibility: hidden;
+}
+
+@media (max-width:860px) {
+    .navbar {
+        display: none;
+    }
+    .home-test {
+        height: 500px;
+    }
 }
 
 .navbar.active .navbar-brand img{
