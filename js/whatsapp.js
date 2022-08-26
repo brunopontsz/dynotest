@@ -40,4 +40,5 @@ function goToWhatsapp () {
     const urlPath = `https://wa.me/5585997360914?text=${finalText}`;
     window.open(urlPath, '_blank').focus();
 
-}
+    
+}    
