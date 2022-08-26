@@ -41,3 +41,5 @@ function goToWhatsapp () {
     window.open(urlPath, '_blank').focus();
 
 }
+
+.
