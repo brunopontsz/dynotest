@@ -16,19 +16,26 @@ function goToWhatsapp () {
     const name = document.getElementById("contact-name").value;
     const vehicle = document.getElementById("contact-vehicle").value;
     let motor = document.getElementById("contact-motor").value;
-    const service = document.getElementById("contact-service").value;
+    let service = document.getElementById("contact-service").value;
 
     const breakLine = `%0A`;
-    const text = `Olá DynoTest, tudo bem? ${breakLine} Me chamo ${name} e gostaria de saber mais sobre os serviços que vocês oferecem para meu veículo.`;
-    const vehicleText = `${breakLine}Veículo: ${vehicle}`;
+    const text = `Olá DynoTest, tudo bem? ${breakLine} Me chamo *${name}* e gostaria de saber mais sobre os serviços que vocês oferecem para meu veículo.`;
+    const vehicleText = `${breakLine}*Veículo: ${vehicle}*`;
     let engineText;
-    if (motor = null) {
-        engineText = "";
+    if (motor == "") {
+        engineText = ``;
     } else {
-        engineText = `${breakLine}Motorização: ${motor}`;
+        engineText = `${breakLine}*Motorização: ${motor}*`;
     }
 
-    const serviceText = `${breakLine}Serviço: ${service}`;
+    let serviceText;
+    if (service == "") {
+        serviceText = ``;
+    } else {
+        serviceText = `${breakLine}*Serviço: ${service}*`;
+    }
+
+
     const finalText = text + vehicleText + engineText + serviceText;
     const urlPath = `https://wa.me/5585997360914?text=${finalText}`;
     window.open(urlPath, '_blank').focus();

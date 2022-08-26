@@ -354,6 +354,23 @@ input {
     box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+.featured-cta-list {
+    padding: 30px;
+}
+
+
+@media (max-width:766px) {
+    .cta-list {
+        margin: 0 0 0 0;
+    }
+    .cta-form-box {
+        padding: 0 0 0 0;
+    }
+    .featured-cta-list {
+        padding: 10px 30px 0px 30px;
+    }
+}
+
 .navbar-brand img {
     max-width: 380%;
     visibility: hidden;
@@ -500,8 +517,4 @@ input {
 
 .bootstrap-select a.dropdown-item:hover {
     color: #851010 !important;
-}
-
-.featured-cta-list {
-    padding: 30px;
 }
