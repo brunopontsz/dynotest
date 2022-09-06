@@ -86,13 +86,13 @@ body {
 }
 
 .btn-modal:active {
-    background-color: #851010;
-    border: #851010;
+    background-color: #af1313;
+    border: #af1313;
 }
 
 .btn-modal:focus {
-    background-color: #851010;
-    border: #851010;
+    background-color: #af1313;
+    border: #af1313;
 }
 
 .bgc-thm2 {
@@ -278,7 +278,7 @@ input {
 
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
-    color: #fff;
+    color: #e3e3e3;
     text-decoration: none;
 }
 
@@ -507,8 +507,8 @@ input {
 }
 
 .btn-modal:hover {
-    background-color: #af1313;
-    border-color: #af1313;
+    background-color: #851010;
+    border-color: #851010;
 }
 
 .bootstrap-select a.dropdown-item {
