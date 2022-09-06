@@ -70,6 +70,10 @@ body {
     color: white;
 }
 
+.img-box {
+    padding: 0 0 5px 0;
+}
+
 .flaticon-road-perspective {
     color: #af1313;
 }
@@ -175,6 +179,11 @@ textarea.form-control{
 
 .sub-title h2{
     margin-left: 70px;
+}
+
+.aboutus-image {
+    max-width: 90%;
+    border-radius: 8px;
 }
 
 .form-group {
@@ -372,6 +381,7 @@ input {
 }
 
 .navbar-brand img {
+    
     max-width: 380%;
     visibility: hidden;
 }
