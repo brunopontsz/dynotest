@@ -6,9 +6,6 @@
     --swiper-theme-color: #af1313; 
 }
 
-html {
-
-}
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     font-family: var(--font-primary);
     color: #af1313;
@@ -68,6 +65,16 @@ body {
 
 .carlisting-popular-vehicles .listing_footer ul li {
     color: white;
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.carlisting-popular-vehicles .listing_footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .img-box {
@@ -165,6 +172,12 @@ textarea.form-control{
     background-color: #252525;
     color: white;
     border: 1px solid #3e3e3e;
+}
+
+.footer_social_widget ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
 }
 
 .btn-send {
@@ -282,6 +295,7 @@ input {
 
 .navbar .nav-link {
     color: #fff;
+    font-weight: 500;
     
 }
 
@@ -304,6 +318,7 @@ input {
 
 .navbar.active .nav-link {
     color: #555;
+    font-weight: 500;
 }
 
 .navbar.active .nav-link:hover,
@@ -367,8 +382,79 @@ input {
     padding: 30px;
 }
 
+@media (max-width: 991px) {
 
-@media (max-width:766px) {
+    .cta-list {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+
+    .contact-form-box {
+        padding: 20px 0px;
+    }
+
+    .btn-send {
+        padding: 13px 0;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .sub-title {
+        text-align: center !important;
+        justify-content: center;
+    }
+
+    .sub-title h2 {
+        margin-left: 0px;
+    }
+
+
+    .main-title {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .main-title h2 {
+        margin-bottom: 20px !important;
+    }
+
+    .mb01 {
+        margin-bottom: 0px !important;
+    }
+
+    .btn-modal {
+        width: calc(100% - 40px) !important;
+        padding: 13px 0 !important;
+    }
+
+    .home_content_home5_style .wrapper {
+        padding: 80px 10px;
+      }
+    
+    .home-test {
+        text-align: center;
+        height: auto;
+      }
+    
+      .home-init {
+        padding-bottom: 0px !important;
+      }
+
+      .logoheader {
+        margin: 0 auto;
+        width: 100%;
+        padding: 0 40px;
+        margin-top: 30px;
+      }
+
+
+    .service-section .box {
+        margin-top: 20px;
+    }
+
     .cta-list {
         margin: 0 0 0 0;
     }
@@ -380,13 +466,49 @@ input {
     }
 }
 
+@media only screen and (max-width: 1399px) and (min-width: 992px) {
+    .btn-send {
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3px 0;
+    }
+}
+
+@media only screen and (max-width: 991px) and (min-width: 768px) {
+
+    .main-title {
+        text-align: center;
+    }
+
+    .main-title h2 {
+        margin-bottom: 20px !important;
+    }
+
+    .sub-title {
+        text-align: center !important;
+        justify-content: center;
+    }
+
+    .sub-title h2 {
+        margin-left: 0px;
+    }
+
+    .btn-send {
+        padding: 10px 0;
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+    }
+}
+
 .navbar-brand img {
     
     max-width: 380%;
     visibility: hidden;
 }
 
-@media (max-width:860px) {
+@media only screen and (max-width:860px) {
     .navbar {
         display: none;
     }
@@ -400,6 +522,8 @@ input {
     visibility: visible;
 }
 
+
+
 @media (max-width:400px) {
     .btn-send {
         max-width: 252px;
@@ -411,15 +535,9 @@ input {
     .logo_footer {
         max-width: 65%;
     }
-
-    .btn-modal {
-        padding: 6.5px !important;
-    }
 }
 
 @media (width:414px) {
-    html {
-    }
 
     .btn-send {
         max-width: 268px;
@@ -433,13 +551,8 @@ input {
     }
 
     .bg-home5 {
-        background-image: url(../images/mobilew.jpg);
         max-width: 450px;
         max-height: 720px;
-    }
-
-    .btn-modal {
-        padding: 7.5px !important;
     }
 
     .navbar {
@@ -448,7 +561,7 @@ input {
 }
 
 
-@media (max-width:980px) {
+@media (max-width:992px) {
     .navbar-brand img {
         display: none;
     }
