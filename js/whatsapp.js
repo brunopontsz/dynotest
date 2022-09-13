@@ -14,6 +14,7 @@ function openModal() {
 function goToWhatsapp () {
     const breakLine = `%0A`;
 
+
     const selectedOptions = [...document.getElementById('contact-service').options].filter(t => t.selected);
     const name = document.getElementById("contact-name").value;
     const vehicle = document.getElementById("contact-vehicle").value;
@@ -23,6 +24,25 @@ function goToWhatsapp () {
     if (!name || !vehicle) {
         return false;
     }
+
+
+    const text = `Olá DynoTest, tudo bem? ${breakLine}Me chamo *${name}* e gostaria de saber mais sobre os serviços que vocês oferecem para meu veículo. ${breakLine}`;
+    const vehicleText = `${breakLine}Veículo:${breakLine}*${vehicle}*${breakLine}`;
+
+    let engineText;
+    if (motor == "") {
+        engineText = ``;
+    } else {
+        engineText = `${breakLine}Motorização:${breakLine}*${motor}*${breakLine}`;
+    }
+
+    let serviceText;
+    if (selected == "") {
+        serviceText = ``;
+    } else {
+        serviceText = `${breakLine}Serviço(s) escolhido(s):${breakLine}*${selected}*`;
+    }
+  
 
 
     //requiredFields

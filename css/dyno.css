@@ -26,11 +26,13 @@ body {
 .service-section .box {
     margin-top: 90px;
     display: flex;
+    min-height: 310px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     flex-direction: column;
     -webkit-box-align: center;
     align-items: center;
+    justify-content: center;
     text-align: center;
     background-color: #ffff;
     border-radius: 10px;
@@ -45,6 +47,11 @@ body {
 
 .logo_footer {
     max-width: 10%;
+}
+
+.footer_about_widget img {
+    margin-bottom: 20px;
+    max-width: 50px;
 }
 
 .logoheader {
