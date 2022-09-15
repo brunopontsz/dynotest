@@ -377,7 +377,7 @@ input {
 
 .home-test {
     height: 600px;
-    background: none;
+    background: #00000070;
 }
 
 .navbar.active {

@@ -856,6 +856,7 @@ address {
   opacity: 1;
   position: relative;
   vertical-align: middle;
+  transition: all 400ms;
   -webkit-transition: all 400ms;
   -moz-transition: all 400ms;
   -ms-transition: all 400ms;
@@ -5107,6 +5108,7 @@ form.listing_page_v9{
   line-height: normal;
   margin-right: 30px;
   position: relative;
+  text-align-last: auto;
   -ms-text-align-last: auto;
   text-align: left;
   width: 210px;
@@ -18264,6 +18266,7 @@ div#countdown .col-xs-6.col-sm-3{
 }
 /*== Chart Js Css ==*/
 canvas {
+  user-select: none;
   -moz-user-select: none;
   -webkit-user-select: none;
   -ms-user-select: none;
