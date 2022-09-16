@@ -5074,7 +5074,7 @@ form.listing_page_v9{
   position: relative;
 }
 .half-bg-img-divider:before{
-  background-image: url(../images/halfdivider.jpeg);
+  background-image: url(../images/banner/halfdivider.jpeg);
   background-size: cover;
   background-position: center center;
   bottom: 0;

@@ -12,6 +12,7 @@ function openModal() {
 }
 
 function goToWhatsapp () {
+    Event.preventDefault();
     const breakLine = `%0A`;
 
 
