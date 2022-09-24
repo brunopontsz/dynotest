@@ -3,3 +3,8 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/dynote99/public_html/
     - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R ajax $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R fonts $DEPLOYPATH
+    - /bin/cp -R js $DEPLOYPATH
+    - /bin/cp .htaccess $DEPLOYPATH
