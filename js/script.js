@@ -12,15 +12,6 @@
         });
     }
 
-    /** Main Menu Custom Script Start **/
-    $(document).on('ready', function() {
-        $("#respMenu").aceResponsiveMenu({
-            resizeWidth: '768', // Set the same in Media query
-            animationSpeed: 'fast', //slow, medium, fast
-            accoridonExpAll: false //Expands all the accordion menu on click
-        });
-    });
-
     function mobileNavToggle() {
         if ($('#main-nav-bar .navbar-nav .sub-menu').length) {
             var subMenu = $('#main-nav-bar .navbar-nav .sub-menu');
@@ -1412,8 +1403,7 @@
    ====== */
     $(document).on('ready', function() {
         // add your functions
-        navbarScrollfixed();
-        scrollToTop();
+        
         wowAnimation();
         mobileNavToggle();
 

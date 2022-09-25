@@ -23153,6 +23153,7 @@ input.quantity-num[type="number"]::-webkit-outer-spin-button {
 }
 .testimonial_box {
   background-color: #ffffff;
+  min-height: 300px;
   border: 1px solid #EAEAEA;
   border-radius: 8px;
   padding: 50px 60px 30px 50px;

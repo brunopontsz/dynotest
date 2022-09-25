@@ -196,6 +196,11 @@ textarea.form-control{
     overflow: hidden;
 }
 
+.btn-send:hover {
+    background-color: #851010;
+    border-color: #851010;
+}
+
 .sub-title h2{
     margin-left: 70px;
 }
@@ -323,7 +328,7 @@ input {
 }
 
 .navbar.active .nav-link {
-    color: #555;
+    color: #fff;
     font-weight: 500;
 }
 
@@ -543,10 +548,19 @@ input {
     }
 }
 
+@media only screen and (max-width: 425px) and (min-width: 320px) {
+    .btn-send {
+        max-width: 100%;
+        width: 100%;
+    }
+}
+
+
+
 @media (width:414px) {
 
     .btn-send {
-        max-width: 268px;
+        max-width: 100%;
     }
     .sub-title h2 {
         margin: 0 0 0 0;
@@ -577,10 +591,6 @@ input {
     .sub-title h2 {
         padding: 50px 0 0 0;
     }
-}
-
-.navbar.active .nav-link {
-    color: #555;
 }
 
 .form-control1:focus-within {

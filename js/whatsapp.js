@@ -35,7 +35,7 @@ function goToWhatsapp () {
         `${breakLine}Serviço(s) escolhido(s): ${selectedOptions.map(t => `${breakLine}- *${t.value}*`)}` : '';
   
     const finalText = text + vehicleText + engineText + serviceText;
-    const urlPath = `https://wa.me/5585982190975?text=${finalText}`;
+    const urlPath = `https://wa.me/5585981152600?text=${finalText}`;
     window.open(urlPath, '_blank').focus();
 }
 
