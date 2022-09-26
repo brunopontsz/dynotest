@@ -376,12 +376,12 @@ input {
 
 .parallax-container {
     height: 360px;
-    background: #0000009e;
+    background: #173a1b26;
 }
 
 .home-test {
     height: 600px;
-    background: #00000070;
+    background: #173a1b26;
 }
 
 .navbar.active {
@@ -475,6 +475,14 @@ input {
     .featured-cta-list {
         padding: 10px 30px 0px 30px;
     }
+}
+
+@media only screen and (max-width: 530px) and (min-width: 320px) {
+    .logoheader {
+        margin-top: 30px;
+        max-width: 100%;
+    }
+
 }
 
 @media only screen and (max-width: 1399px) and (min-width: 992px) {
