@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home1/dynote99/public_html/
     - export DEPLOYPATH=/home1/dynote99/repositories/dynotest
+    - /bin/cp * $DEPLOYPATH
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R ajax $DEPLOYPATH
     - /bin/cp -R css $DEPLOYPATH
